@@ -1,0 +1,24 @@
+/*
+Fichier créé par Jogomez13 le 03/01/17
+*/
+
+h1, h2, h3 {
+  text-align: center;
+  text-decoration:underline;
+}
+
+h4 {
+  background-color: white;
+  border-bottom: 2px solid black;
+}
+
+.container {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+section {
+  border : 2px solid black;
+  background-color: silver;
+  margin-top: 50px;
+}

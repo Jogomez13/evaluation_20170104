@@ -1,0 +1,39 @@
+Lire le fichier
+
+
+$theme = "##";
+
+$question = "#";
+
+$reponse ="-";
+
+$questionnaire = tableau();
+
+Pour chaque ligne on verifie le contenue de la ligne = $contenuligne {
+    Si ligne contient "##"{
+
+        $theme = $contenuligne
+//on stocke le contenu de la ligne dans la catégorie theme
+        echo $theme . "\n";
+
+    }
+
+    Sinon si ligne contient "#" {
+
+        $question = $contenuligne;
+//on stocke le contenu de la ligne dans la catégorie question
+        echo $question . "\n";
+
+    }
+
+    Sinon si la ligne contient "-" {
+
+// si la ligne contient un "-" alors on stocke la ligne dans questionnaire
+
+        $questionnaire[] = $contenuligne;
+
+        echo $contenuligne;
+
+    }
+
+}
